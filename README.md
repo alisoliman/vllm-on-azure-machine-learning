@@ -1,4 +1,4 @@
-# vllm-on-azure-machine-learning
+# vLLM + Function Calling using Azure Machine Learning
 
 This repo shows how to run vLLM on Azure Machine Learning for out-of-the-box models from HuggingFace or fine-tuned/customized models.
 
