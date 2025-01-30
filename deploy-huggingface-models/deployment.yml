@@ -3,7 +3,7 @@ name: current
 endpoint_name: vllm-hf
 environment_variables:
   MODEL_NAME: meta-llama/Llama-3.1-8B-Instruct # define the model name using the identifier from HG
-  VLLM_ARGS: "--max-num-seqs 16 --enforce-eager"
+  VLLM_ARGS: "--max-num-seqs 16 --enforce-eager --enable-auto-tool-choice --tool-call-parser llama3_json"
   HUGGING_FACE_HUB_TOKEN: xxxxxxxxxxxxxx # Add your HF API key here
 environment:
   image: xxxxxxxxx.azurecr.io/azureml/azureml_xxxxxxxxxxx # Replace with your own image
