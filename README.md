@@ -1,5 +1,5 @@
-# vLLM + Function Calling using Azure Machine Learning
+# vLLM + Function Calling with Azure Machine Learning
 
-This repo shows how to run vLLM on Azure Machine Learning for out-of-the-box models from HuggingFace or fine-tuned/customized models.
+This repository demonstrates how to deploy a Llama 3.1 model using Azure Machine Learning and integrate it with the Chat Completions API, including support for function calling. 
 
-Full tutorial can be found [here](https://clemenssiebler.com/posts/vllm-on-azure-machine-learning-managed-online-endpoints-deployment/).
+For a detailed guide on deploying custom models on Azure Machine Learning, check out this excellent [tutorial by Clemens Siebler](https://clemenssiebler.com/posts/vllm-on-azure-machine-learning-managed-online-endpoints-deployment/).
